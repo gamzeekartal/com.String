@@ -3,11 +3,10 @@ package com.String;
 public class playingWithString {
 
 	public static void main(String[] args) {
-		int a = 307; 
-		int x=3; int y=5;
+		int x = 307; 
 		
 		String s1 = "Computer Science";
-		String s2 = s1 + " " + a + " " + x;
+		String s2 = s1 + " " + x;
 		String s3 = s1.substring(7,10);
 		String s4 = "is fun";
 		String s5 = s2 + s4;
@@ -18,8 +17,11 @@ public class playingWithString {
 		System.out.println("S4: " + s4);
 		System.out.println("S5: " + s5);
 		
-		String s6 = Integer.toString(x + y);
-		String s7 = Integer.toString(x) + Integer.toString(y);
+		
+		int y=5; x=3;
+		
+		String s6 = Integer.toString(x) + Integer.toString(y) + Integer.toString(x + y);
+		String s7 = Integer.toString(x + y) + Integer.toString(x) + Integer.toString(y);
 		String s8 = x + " " + y + " " + Integer.toString(x+y);
 		
 		System.out.println("S6: " + s6);
