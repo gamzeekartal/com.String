@@ -20,9 +20,9 @@ public class playingWithString {
 		
 		int y=5; x=3;
 		
-		String s6 = Integer.toString(x) + Integer.toString(y) + Integer.toString(x + y);
-		String s7 = Integer.toString(x + y) + Integer.toString(x) + Integer.toString(y);
-		String s8 = x + " " + y + " " + Integer.toString(x+y);
+		String s6 = x + y + "total";
+		String s7 = "total" + x + y;
+		String s8 = x + " " + y + " " + "total";
 		
 		System.out.println("S6: " + s6);
 		System.out.println("S7: " + s7);
